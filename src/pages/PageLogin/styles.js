@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
+
 export const Container = styled.div`
 display: flex;
 align-items: center;
@@ -62,13 +63,14 @@ box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
 border-radius: 4px;
 animation: ${rotate90deg} 2s;
 
+
 form{
-    width: 370px;
+    width: 350px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 42px 22px;
+    align-content: center;
 }
 
 

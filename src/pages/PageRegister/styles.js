@@ -35,6 +35,8 @@ to{
 export const FormContainer = styled.div`
 background: var(--grey3);
 animation: ${appearFromleft} 2s;
+box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
 form{
     width: 370px;
     height: auto;
@@ -42,15 +44,13 @@ form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 42px 22px;
-    
-
-    
-    box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
 
 }
 
+.error{
+    color: rgb(192, 110, 110);
+    margin-left:10px;
+}
 
 p{
     font-family: 'Inter';
