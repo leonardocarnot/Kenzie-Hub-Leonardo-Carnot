@@ -26,7 +26,6 @@ function Dashboard({ authenticated }) {
   );
   const [id] = useState(JSON.parse(localStorage.getItem("id")) || "");
   const  [techs,setTechs] = useState([]);
-  console.log(techs)
 
   const loadTechs = () => {
     api
